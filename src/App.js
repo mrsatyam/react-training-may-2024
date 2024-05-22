@@ -5,12 +5,13 @@ import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 import Navigation from './components/Navigation';
+import Product from './components/Product';
+
 
 const App = () => {
 
   return (
     <div className="App">
-       <h1>App component:</h1>
       <Router>
               <Navigation/>
               <Routes>
