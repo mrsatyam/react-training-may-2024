@@ -6,19 +6,16 @@ const About = () => {
   return (
     <div>
       <h1>About Page</h1>
-      <p>Check out the list of cuisines available at Foodify </p>
+      <p>Check out the list of dishes available at Foodify </p>
 
       <ul>
         <li>
-          <Link to="/about/product1">Product 1</Link>
+          <Link to="/about/1">Burgers</Link>
         </li>
         <li>
-          <Link to="/about/product2">Product 2</Link>
+          <Link to="/about/2">Wraps</Link>
         </li>
       </ul>
-      <Routes>
-              <Route path="/about/:id" element={<Product/>} />
-      </Routes>
     </div>
   );
 };
