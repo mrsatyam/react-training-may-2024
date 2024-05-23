@@ -10,7 +10,7 @@ const Navigation = () => {
           <Link to="/" className="nav-link">Home</Link>
         </li>
         <li className="nav-item">
-           <a href="/about" className="nav-link">
+          <Link to="/about" className="nav-link">About</Link>
         </li>
         <li className="nav-item">
           <Link to="/contact" className="nav-link">Contact</Link>

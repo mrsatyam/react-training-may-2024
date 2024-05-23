@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div>
       <h1>About Page</h1>
-      <p>This is the About page.</p>
+      <p>Check out the list of cuisines available at Foodify </p>
 
       <ul>
         <li>
@@ -17,7 +17,7 @@ const About = () => {
         </li>
       </ul>
       <Routes>
-              <Route path="/about/:id" component={Product} />
+              <Route path="/about/:id" element={<Product/>} />
       </Routes>
     </div>
   );
