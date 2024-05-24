@@ -7,7 +7,7 @@ import Contact from './components/Contact';
 import Navigation from './components/Navigation';
 import Product from './components/Product';
 import Blog from './components/Blog';
-
+import Error from './components/Error';
 
 
 const App = () => {
@@ -23,6 +23,7 @@ const App = () => {
                 <Route path="/about/:id" element={<Product/>} />
                 <Route path="/blog" element={<Blog />} />
                 <Route path="/blog/:postId" element={<Blog />} />
+                <Route path="*" element={<Error />} />
               </Routes>
       </Router>
     </div>
