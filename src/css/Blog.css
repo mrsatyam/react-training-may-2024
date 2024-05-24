@@ -1,0 +1,13 @@
+.inline-container {
+   display: flex;
+   align-items: center;
+}
+
+.inline-container h1 {
+   margin-right: 10px;
+   margin-left: 10px;
+   margin-top: 10px;
+}
+ p {
+   padding-top: 10px;
+}

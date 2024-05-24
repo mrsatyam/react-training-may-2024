@@ -6,6 +6,8 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Navigation from './components/Navigation';
 import Product from './components/Product';
+import Blog from './components/Blog';
+
 
 
 const App = () => {
@@ -19,6 +21,8 @@ const App = () => {
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/about/:id" element={<Product/>} />
+                <Route path="/blog" element={<Blog />} />
+                <Route path="/blog/:postId" element={<Blog />} />
               </Routes>
       </Router>
     </div>
