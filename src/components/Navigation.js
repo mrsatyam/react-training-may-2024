@@ -18,6 +18,10 @@ const Navigation = () => {
          <li className="nav-item">
            <Link to="/blog" className="nav-link">Blogs</Link>
          </li>
+          <li className="nav-item">
+            <Link to="/userProfile" className="nav-link">Profile</Link>
+          </li>
+
       </ul>
     </nav>
   );
